@@ -1,5 +1,4 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import type { PayloadAction } from '@reduxjs/toolkit'
 import { supabase } from '../../services/supabaseClient'
 import type { BlogState, CreateBlogData, UpdateBlogData } from './blogTypes'
 import type { Blog, PaginationMeta } from '../../types'

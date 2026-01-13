@@ -1,5 +1,4 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import type { PayloadAction } from '@reduxjs/toolkit'
 import { supabase } from '../../services/supabaseClient'
 import type { AuthState, LoginCredentials, RegisterCredentials } from './authTypes'
 import type { User } from '../../types'
